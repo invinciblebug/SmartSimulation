@@ -207,6 +207,21 @@ No, Smart Simulation does not contain any malware or viruses. The mod is safe to
 
 No, Smart Simulation is designed to be lightweight and focused on performance. It should actually improve your game's performance by reducing simulation slowdowns and stalls.
 
+**Does this mod make my game load faster?**
+
+No, this mod does not significantly affect game loading times. It may have a very small effect depending on your PC or laptop specifications, but its primary purpose is to make gameplay smoother and prevent the simulation from getting stuck, not to make your game load faster.
+
+**Does this mod make my game super fast?**
+
+No, Smart Simulation does not make your game extraordinarily fast. It focuses on making gameplay smooth and preventing Sims from getting stuck or the timeline from freezing. The mod optimizes simulation responsiveness rather than increasing overall game speed.
+
+**What platforms does this mod support?**
+
+Smart Simulation supports all major platforms:
+- **Windows** - Full support
+- **macOS** - Full support
+- **Linux** - Full support (including Steam/Proton, Lutris, and EA App versions)
+
 **Can I use this mod with other simulation optimization mods?**
 
 While Smart Simulation is designed to be compatible, using multiple simulation optimization mods together is generally not recommended as they may interfere with each other. It's best to test one at a time.
