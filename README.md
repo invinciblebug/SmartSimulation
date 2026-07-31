@@ -109,6 +109,7 @@ Example log files:
 ```text
 SmartSimulation.log
 SmartSimulation_SimActivity.log
+.installed (marker file for first-time installation)
 ```
 
 Logs can be rotated automatically to keep file size under control.
