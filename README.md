@@ -247,6 +247,14 @@ Yes, Smart Simulation is designed to work with all Sims 4 expansion packs, game 
 
 No, Smart Simulation does not modify your save files. It only affects the simulation runtime and does not make permanent changes to your game data.
 
+**Where is the source code?**
+
+This project is currently proprietary, so the source code is not released publicly. The mod is provided as compiled `.ts4script` and `.package` files for use in The Sims 4.
+
+**Is this project open source?**
+
+No, currently this project is not open source. However, in the future I may consider releasing it as open source to allow others to use, modify, and improve the code, and to enable contributions on GitHub.
+
 ---
 
 ## License
