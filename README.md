@@ -69,18 +69,27 @@ Logs can be rotated automatically to keep file size under control.
 
 Smart Simulation is designed to work with the latest version of The Sims 4.
 
+**Tested Version:** 1.126.73.1030
+
 If a game update changes behavior, a new release will be published as soon as possible.
 
 ---
 
 ## Reporting Issues
 
-If you run into a problem, include:
+If you run into a problem, please:
 
-* Smart Simulation version
-* The Sims 4 version
-* A clear description of the issue
-* Relevant log files if available
+1. **Create an issue on GitHub** at:
+   **https://github.com/invinciblebug/SmartSimulation/issues**
+
+2. Include the following information:
+   * Smart Simulation version
+   * The Sims 4 version
+   * A clear description of the issue
+   * Relevant log files if available (from `Documents/Electronic Arts/The Sims 4/SmartSimulation/`)
+
+3. **For discussions, questions, or help**, start a discussion at:
+   **https://github.com/invinciblebug/SmartSimulation/discussions**
 
 ---
 
