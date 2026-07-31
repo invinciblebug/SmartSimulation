@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/invinciblebug/SmartSimulation/discussions
+    about: Use GitHub Discussions for questions, help, and general conversation
+  - name: Bug Report
+    url: https://github.com/invinciblebug/SmartSimulation/issues/new?template=bug_report.yml
+    about: Report a bug or issue with the mod
+  - name: Feature Request
+    url: https://github.com/invinciblebug/SmartSimulation/issues/new?template=feature_request.yml
+    about: Suggest a new feature or improvement

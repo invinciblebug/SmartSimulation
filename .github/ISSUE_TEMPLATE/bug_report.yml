@@ -1,0 +1,134 @@
+---
+name: Bug Report
+description: Report a bug or issue with Smart Simulation mod
+title: '[BUG] '
+labels: ['bug']
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: input
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: Describe the bug...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen
+      placeholder: Describe what should happen...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened instead
+      placeholder: Describe what actually happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Please attach your log files from the SmartSimulation folder
+      placeholder: |
+        Windows: C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\SmartSimulation\
+        macOS: /Users/<Username>/Documents/Electronic Arts/The Sims 4/SmartSimulation/
+        Linux: ~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/SmartSimulation/
+        
+        Attach SmartSimulation.log and SmartSimulation_SimActivity.log
+    validations:
+      required: false
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux (Steam/Proton)
+        - Linux (Lutris/EA App)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating System Version
+      description: e.g., Windows 11, macOS Sonoma, Ubuntu 22.04
+      placeholder: Enter your OS version
+    validations:
+      required: false
+
+  - type: input
+    id: smart-sim-version
+    attributes:
+      label: Smart Simulation Version
+      description: e.g., 1.0.0
+      placeholder: Enter mod version
+    validations:
+      required: true
+
+  - type: input
+    id: sims4-version
+    attributes:
+      label: Sims 4 Version
+      description: Check in Game Options > About
+      placeholder: Enter Sims 4 version
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game-language
+    attributes:
+      label: Game Language
+      description: What language is your game set to?
+      options:
+        - English
+        - German
+        - French
+        - Spanish
+        - Italian
+        - Portuguese
+        - Russian
+        - Polish
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other context about the problem
+      placeholder: When did the issue start? Does it happen consistently? What were you doing when it occurred?
+    validations:
+      required: false
+
