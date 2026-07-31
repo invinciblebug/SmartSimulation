@@ -113,6 +113,8 @@ Thumbs.db
 # Sims 4 specific
 *.ts4script
 *.package
+[INVINCIBLEBUG]*.ts4script
+[INVINCIBLEBUG]*.package
 
 # Core repository (separate private repo)
 core/

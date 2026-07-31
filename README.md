@@ -104,15 +104,15 @@ The mod creates its logs inside:
 Documents/Electronic Arts/The Sims 4/SmartSimulation/
 ```
 
-Example log files:
+Example log files (with date/time timestamps):
 
 ```text
-SmartSimulation.log
-SmartSimulation_SimActivity.log
+SmartSimulation_20260801_010354.log
+SmartSimulation_SimActivity_20260801_010354.log
 .installed (marker file for first-time installation)
 ```
 
-Logs can be rotated automatically to keep file size under control.
+Log files include date/time timestamps (YYYYMMDD_HHMMSS format) for professional organization and easy identification. Logs are automatically rotated when they exceed 10MB and deleted after 30 days.
 
 ---
 
