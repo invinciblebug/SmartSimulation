@@ -172,7 +172,7 @@ Smart Simulation is proprietary software.
 - You may NOT remove or alter any copyright notices or license headers.
 - You may NOT distribute modified versions of this software.
 
-For full license details, see the LICENSE file in this repository.
+For full license details, see the [LICENSE](LICENSE) file in this repository.
 
 ---
 
