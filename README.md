@@ -128,7 +128,28 @@ Download the latest version here:
 
 Developed by **Invincible Bug**.
 
+Website: https://invinciblebug.github.io
+
 Thanks to the Sims 4 modding community for tools, documentation, and shared knowledge.
+
+---
+
+## License
+
+Smart Simulation is proprietary software.
+
+**Permissions:**
+- You may install and use this software for personal, non-commercial purposes in The Sims 4 game.
+- You may modify this software for personal use only.
+
+**Restrictions:**
+- You may NOT redistribute, sell, or license this software in any form.
+- You may NOT use this software for commercial purposes.
+- You may NOT claim this software as your own work.
+- You may NOT remove or alter any copyright notices or license headers.
+- You may NOT distribute modified versions of this software.
+
+For full license details, see the LICENSE file in this repository.
 
 ---
 

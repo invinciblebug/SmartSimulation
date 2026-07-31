@@ -10,6 +10,8 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
 
+        For more information about Smart Simulation, visit: https://invinciblebug.github.io
+
   - type: input
     id: bug-description
     attributes:
