@@ -123,6 +123,19 @@ body:
     validations:
       required: false
 
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Critical - Game crashes or completely unplayable
+        - High - Major feature broken, but game playable
+        - Medium - Minor feature broken or workaround available
+        - Low - Cosmetic issue or minor inconvenience
+    validations:
+      required: true
+
   - type: textarea
     id: additional-context
     attributes:
