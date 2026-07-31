@@ -8,14 +8,37 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 
 ## Features
 
-* Improves simulation stability and responsiveness
-* Helps reduce slowdowns and stalled interactions
-* Designed for smoother and more reliable gameplay
-* Lightweight and focused on performance
-* Automatic update notifications
-* Log files for troubleshooting
-* Offline-friendly behavior
-* Built for The Sims 4
+* **Improved Simulation Stability** - Reduces simulation slowdowns and keeps gameplay feeling responsive
+* **Stall Recovery** - Automatically detects and recovers from stalled interactions
+* **Smoother Gameplay** - Designed for more reliable and consistent simulation performance
+* **Lightweight** - Focused on performance without unnecessary overhead
+* **Automatic Updates** - Notifies you when a new version is available
+* **Troubleshooting Logs** - Creates detailed logs for diagnosing issues
+* **Offline-Friendly** - Works perfectly without internet connection
+* **Cross-Platform** - Built for Windows, macOS, and Linux versions of The Sims 4
+
+---
+
+## Issues Resolved
+
+Smart Simulation addresses common gameplay issues:
+
+* **Sims Standing Still** - Prevents Sims from freezing and refusing to perform actions
+* **Eating/Cleaning/Sleeping Problems** - Fixes Sims who refuse to complete basic needs interactions
+* **Simulation Slowdowns** - Reduces lag and keeps the simulation running smoothly
+* **Stalled Interactions** - Automatically recovers from interactions that get stuck
+* **Head Bobbing** - Helps prevent the "head bob" freeze effect
+* **Timeline Freezes** - Detects and recovers from timeline stalls
+
+---
+
+## Performance Benefits
+
+* **Faster Simulation** - Improves overall simulation responsiveness
+* **Reduced Lag** - Minimizes slowdowns during busy gameplay moments
+* **Smoother Transitions** - Better handling of interaction transitions
+* **Consistent Performance** - More reliable simulation across different save types
+* **Safe Optimizations** - All improvements are designed to be safe and reversible
 
 ---
 
