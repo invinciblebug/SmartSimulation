@@ -157,6 +157,48 @@ Thanks to the Sims 4 modding community for tools, documentation, and shared know
 
 ---
 
+## About
+
+Thanks for trying Smart Simulation! I created this mod to help improve your gameplay experience.
+
+I made this mod for myself because my Sims 4 setup has become quite extensive:
+- Over 20,000 animations
+- 10,000+ mods (including both package and .ts4script files)
+
+With this many mods, my Sims 4 game became very slow, the timeline would frequently get stuck, and sometimes Sims would stop working entirely. I needed a solution to keep my game playable and enjoyable.
+
+Smart Simulation is the result of my efforts to optimize simulation performance and recover from stalls. I hope it helps your gameplay experience as much as it has helped mine.
+
+---
+
+## FAQ
+
+**Does this mod conflict with other mods?**
+
+No, Smart Simulation is designed to be compatible with most mods. However, some mods like MCCC (MC Command Center) may have conflicts if you manually change certain settings. I've made sure it won't conflict unless there are specific updates or changes to those mods.
+
+**Does this mod get regular updates?**
+
+Yes! Smart Simulation receives regular updates with testing and improvements. I actively maintain and test the mod to ensure compatibility with the latest Sims 4 versions and to address any issues that arise.
+
+**I have an issue, what should I do?**
+
+Please report any issues on GitHub Issues. You'll need to sign in to GitHub to create an issue. I'll resolve issues as fast as possible. When reporting, please include:
+- Smart Simulation version
+- The Sims 4 version
+- A clear description of the issue
+- Relevant log files if available
+
+**Is this mod paid?**
+
+No, Smart Simulation is completely free to use. There are no costs or fees associated with downloading or using this mod.
+
+**Does this mod contain malware or viruses?**
+
+No, Smart Simulation does not contain any malware or viruses. The mod is safe to use and only contains the code necessary for simulation optimization.
+
+---
+
 ## License
 
 Smart Simulation is proprietary software.
