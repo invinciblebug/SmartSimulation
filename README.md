@@ -23,6 +23,11 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 > **Star this Repository**
 > If you love this mod and want to help keep it active, all you have to do is sign in to GitHub and star this repository project. It shows your appreciation and helps others discover the mod. Thank you for your support!
 
+> [!NOTE]
+> **Report Issues**
+> If you have any issues, please report them on GitHub Issues:
+> https://github.com/invinciblebug/SmartSimulation/issues/new?template=bug_report.yml
+
 ---
 
 ## Features
