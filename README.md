@@ -19,6 +19,12 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 
 ---
 
+> [!TIP]
+> **Star this Repository**
+> If you love this mod and want to help keep it active, all you have to do is sign in to GitHub and star this repository project. It shows your appreciation and helps others discover the mod. Thank you for your support!
+
+---
+
 ## Features
 
 * **Improved Simulation Stability** - Reduces simulation slowdowns and keeps gameplay feeling responsive
@@ -111,7 +117,7 @@ Logs can be rotated automatically to keep file size under control.
 
 Smart Simulation is designed to work with the latest version of The Sims 4.
 
-**Tested Version:** 1.126.73.1030
+**Tested Version:** `1.126.73.1030`
 
 If a game update changes behavior, a new release will be published as soon as possible.
 
@@ -196,6 +202,30 @@ No, Smart Simulation is completely free to use. There are no costs or fees assoc
 **Does this mod contain malware or viruses?**
 
 No, Smart Simulation does not contain any malware or viruses. The mod is safe to use and only contains the code necessary for simulation optimization.
+
+**Will this mod slow down my game?**
+
+No, Smart Simulation is designed to be lightweight and focused on performance. It should actually improve your game's performance by reducing simulation slowdowns and stalls.
+
+**Can I use this mod with other simulation optimization mods?**
+
+While Smart Simulation is designed to be compatible, using multiple simulation optimization mods together is generally not recommended as they may interfere with each other. It's best to test one at a time.
+
+**How do I know if the mod is working?**
+
+The mod creates log files in `Documents/Electronic Arts/The Sims 4/SmartSimulation/`. You can check these logs to see if the mod is active. You can also use the in-game cheat command `ss.status` to see the mod's current status.
+
+**Can I disable the mod temporarily?**
+
+Yes, you can disable the mod by removing the `.ts4script` and `.package` files from your Mods folder, or by renaming them with a `.disabled` extension.
+
+**Does this mod work with all expansion packs?**
+
+Yes, Smart Simulation is designed to work with all Sims 4 expansion packs, game packs, and stuff packs, including the latest releases.
+
+**Will this mod affect my save files?**
+
+No, Smart Simulation does not modify your save files. It only affects the simulation runtime and does not make permanent changes to your game data.
 
 ---
 
