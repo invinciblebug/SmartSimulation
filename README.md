@@ -6,6 +6,19 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 
 ---
 
+> [!IMPORTANT]
+> **Official Sources Only**
+> Always download Smart Simulation from official sources to ensure you get the latest, safe version:
+> - **GitHub Releases**: https://github.com/invinciblebug/SmartSimulation/releases
+> - **Official Website**: https://invinciblebug.github.io
+> 
+> Avoid downloading from third-party sites unless you trust the source.
+
+> [!NOTE]
+> This mod is proprietary software. See the [License](#license) section for usage terms.
+
+---
+
 ## Features
 
 * **Improved Simulation Stability** - Reduces simulation slowdowns and keeps gameplay feeling responsive
@@ -43,6 +56,9 @@ Smart Simulation addresses common gameplay issues:
 ---
 
 ## Installation
+
+> [!TIP]
+> Enable script mods in Game Options > Other > Enable Custom Content and Mods before installing.
 
 1. Download the latest release from the **Releases** page.
 2. Extract the files.
@@ -90,6 +106,9 @@ Logs can be rotated automatically to keep file size under control.
 
 ## Compatibility
 
+> [!CAUTION]
+> Always check the tested version before installing. New game updates may require mod updates.
+
 Smart Simulation is designed to work with the latest version of The Sims 4.
 
 **Tested Version:** 1.126.73.1030
@@ -128,7 +147,11 @@ Download the latest version here:
 
 Developed by **Invincible Bug**.
 
-Website: https://invinciblebug.github.io
+**Official Sources:**
+- **Website**: https://invinciblebug.github.io
+- **GitHub**: https://github.com/invinciblebug?tab=repositories
+- **CurseForge Profile**: https://www.curseforge.com/members/invinciblebug
+- **CurseForge Projects**: https://www.curseforge.com/members/invinciblebug/projects
 
 Thanks to the Sims 4 modding community for tools, documentation, and shared knowledge.
 
