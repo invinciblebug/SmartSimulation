@@ -78,11 +78,19 @@ Smart Simulation addresses common gameplay issues:
 >
 > **1. Core Library by Lot 51**
 > - **Download:** https://lot51.cc/mods/core-library
-> - Place `lot51_core.ts4script` in your Mods folder (same location as Smart Simulation)
+> - Place `lot51_core.ts4script` in your Mods folder (directly in Mods or only one subfolder deep)
 >
 > **2. XML Injector by Scumbumbo**
 > - **Download:** https://scumbumbomods.com/xml-injector
-> - Place `XmlInjector_Script_v4.2.ts4script` in your Mods folder (same location as Smart Simulation)
+> - Place `XmlInjector_Script_v4.2.ts4script` in your Mods folder (directly in Mods or only one subfolder deep)
+
+> [!NOTE]
+> **Script Mod Installation Rule**
+> Script mods (.ts4script files) must be placed:
+> - Directly in the Mods folder, OR
+> - Only one subfolder deep inside Mods folder
+> 
+> Do NOT place script mods two or more subfolders deep, or they will not load. This rule applies to Smart Simulation, Core Library, and XML Injector.
 
 1. Download the latest release from the **Releases** page.
 2. Extract the files.
