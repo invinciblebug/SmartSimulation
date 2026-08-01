@@ -264,20 +264,24 @@ No, currently this project is not open source. However, in the future I may cons
 
 ## License
 
-Smart Simulation is proprietary software.
+Smart Simulation is proprietary software and the exclusive property of Invincible Bug.
 
 **Permissions:**
-- You may install and use this software for personal, non-commercial purposes in The Sims 4 game.
+- You may install and use this software for personal, non-commercial use with The Sims™ 4.
 - You may modify this software for personal use only.
+- Modified versions may be used solely for your personal use and may not be redistributed or shared.
 
 **Restrictions:**
-- You may NOT redistribute, sell, or license this software in any form.
-- You may NOT use this software for commercial purposes.
-- You may NOT claim this software as your own work.
-- You may NOT remove or alter any copyright notices or license headers.
+- You may NOT redistribute, re-upload, mirror, sell, sublicense, rent, or otherwise make this software available to others in any form. You may, however, share links only to the official download page, official website, or official GitHub repository.
 - You may NOT distribute modified versions of this software.
+- You may NOT use this software or any part of it for commercial purposes.
+- You may NOT claim this software or any part of it as your own work.
+- You may NOT remove, alter, or obscure any copyright notices, license information, or author attribution.
+- You may NOT include this software in any mod pack, collection, installer, or archive without prior written permission from the author.
+- You may NOT attempt to circumvent, remove, or bypass any licensing mechanism, copyright notices, or author attribution contained within this software, except where permitted by applicable law.
+- You may NOT remove or modify this license agreement.
 
-For full license details, see the [LICENSE](LICENSE) file in this repository.
+For the full license agreement, see the [LICENSE](LICENSE) file.
 
 ---
 
