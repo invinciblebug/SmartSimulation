@@ -55,14 +55,33 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Logs
-      description: Please attach your log files from the [INVINCIBLEBUG] folder
+      label: Mod Logs
+      description: Please attach your mod log files from the [INVINCIBLEBUG] folder
       placeholder: |
         Windows: C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\
         macOS: /Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/
         Linux: ~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/
         
         Attach SmartSimulation_YYYYMMDD_HHMMSS.log and SmartSimulation_SimActivity_YYYYMMDD_HHMMSS.log
+    validations:
+      required: false
+
+  - type: textarea
+    id: game-config-files
+    attributes:
+      label: Game Configuration Files (Optional)
+      description: Please attach these Sims 4 game configuration files for debugging game settings related issues
+      placeholder: |
+        These files help diagnose game configuration issues:
+        
+        Windows: C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\
+        macOS: /Users/<Username>/Documents/Electronic Arts/The Sims 4/
+        Linux: ~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/
+        
+        Attach (optional):
+        - Config.log (Game configuration log)
+        - ConnectionStatus.txt (Connection status information)
+        - GameConfig.ini (Game configuration settings)
     validations:
       required: false
 
