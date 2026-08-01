@@ -81,8 +81,8 @@ body:
         - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
 
         **Paste contents of:**
-        - `SmartSimulation_YYYYMMDD_HHMMSS.log` (main log)
-        - `SmartSimulation_SimActivity_YYYYMMDD_HHMMSS.log` (sim activity log)
+        - `SmartSimulation_Month DD, YYYY.log` (main log)
+        - `SmartSimulation_SimActivity_Month DD, YYYY.log` (sim activity log)
       placeholder: Paste the contents of mod log files here...
     validations:
       required: false

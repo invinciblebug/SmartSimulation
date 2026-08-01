@@ -113,8 +113,6 @@ Thumbs.db
 # Sims 4 specific
 *.ts4script
 *.package
-[INVINCIBLEBUG]*.ts4script
-[INVINCIBLEBUG]*.package
 
 # Release zip files (uploaded to GitHub releases and CurseForge)
 core/build/[INVINCIBLEBUG] SmartSimulation v*.zip
