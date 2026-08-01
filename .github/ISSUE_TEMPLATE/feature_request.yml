@@ -82,7 +82,7 @@ body:
 
         **Paste contents of:**
         - `ss-DD-MM-YYYY.log` (main log)
-        - `ss_SimActivity-DD-MM-YYYY.log` (sim activity log)
+        - `activity-DD-MM-YYYY.log` (sim activity log)
       placeholder: Paste the contents of mod log files here...
     validations:
       required: false
