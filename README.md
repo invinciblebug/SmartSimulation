@@ -12,7 +12,7 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 > - **GitHub Releases**: https://github.com/invinciblebug/SmartSimulation/releases
 > - **CurseForge**: https://www.curseforge.com/sims4/mods/smart-simulation
 > - **Official Website**: https://invinciblebug.github.io
- 
+>
 > Avoid downloading from third-party sites unless you trust the source.
 
 > [!NOTE]
@@ -131,15 +131,15 @@ The mod creates its logs inside:
 Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/
 ```
 
-Example log files (with date/time timestamps):
+Example log files:
 
 ```text
-SmartSimulation_20260801_010354.log
-SmartSimulation_SimActivity_20260801_010354.log
+ss-01-08-2026.log
+act-01-08-2026.log
 .installed (marker file for first-time installation)
 ```
 
-Log files include date/time timestamps (YYYYMMDD_HHMMSS format) for professional organization and easy identification. Each log file starts with comprehensive system information including OS, CPU, RAM, storage, Sims 4 version, and system ID for debugging purposes. Logs are automatically rotated when they exceed 10MB and deleted after 30 days.
+Log files use daily date-stamped filenames (DD-MM-YYYY format). Logs older than 30 days are automatically deleted. On-demand file I/O ensures no file handles are kept open.
 
 ---
 
@@ -167,7 +167,7 @@ If you run into a problem, please:
    * Smart Simulation version
    * The Sims 4 version
    * A clear description of the issue
-   * Relevant log files if available (from `Documents/Electronic Arts/The Sims 4/SmartSimulation/`)
+   * Relevant log files if available (from `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`)
 
 3. **For discussions, questions, or help**, start a discussion at:
    **https://github.com/invinciblebug/SmartSimulation/discussions**
