@@ -72,6 +72,18 @@ Smart Simulation addresses common gameplay issues:
 > [!TIP]
 > Enable script mods in Game Options > Other > Enable Custom Content and Mods before installing.
 
+> [!IMPORTANT]
+> **Required Dependencies**
+> Smart Simulation requires the following mods to function. You must install both before using this mod.
+>
+> **1. Core Library by Lot 51**
+> - **Download:** https://lot51.cc/mods/core-library
+> - Place `lot51_core.ts4script` in your Mods folder (same location as Smart Simulation)
+>
+> **2. XML Injector by Scumbumbo**
+> - **Download:** https://scumbumbomods.com/xml-injector
+> - Place `XmlInjector_Script_v4.2.ts4script` in your Mods folder (same location as Smart Simulation)
+
 1. Download the latest release from the **Releases** page.
 2. Extract the files.
 3. Copy the included files into:
