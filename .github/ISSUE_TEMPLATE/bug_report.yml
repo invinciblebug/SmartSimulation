@@ -84,7 +84,7 @@ body:
 
         **Paste contents of:**
         - `ss-DD-MM-YYYY.log` (main log)
-        - `activity-DD-MM-YYYY.log` (sim activity log)
+        - `act-DD-MM-YYYY.log` (sim activity log)
     validations:
       required: true
 
