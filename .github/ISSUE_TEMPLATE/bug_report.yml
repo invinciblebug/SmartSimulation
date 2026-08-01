@@ -12,7 +12,7 @@ body:
 
         For more information about Smart Simulation, visit: https://invinciblebug.github.io
 
-  - type: input
+  - type: textarea
     id: bug-description
     attributes:
       label: Bug Description
@@ -22,14 +22,31 @@ body:
       required: true
 
   - type: textarea
-    id: steps-to-reproduce
+    id: error-message
+    attributes:
+      label: Error Message / Exception
+      description: |
+        What error or exception did you see? Please paste the exact error message.
+        If you were using Better Exceptions mod, did it show any errors related to Smart Simulation?
+      placeholder: |
+        Paste the exact error message here.
+        
+        If using Better Exceptions:
+        - Did Better Exceptions show any errors for Smart Simulation?
+        - What did the error say?
+        - Copy the full error from Better Exceptions window.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reroduce
     attributes:
       label: Steps to Reproduce
       description: Steps to reproduce the behavior
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
+        1. Start the game
+        2. Load a household
+        3. Do '...'
         4. See error
     validations:
       required: true
@@ -53,35 +70,97 @@ body:
       required: true
 
   - type: textarea
+    id: system-info
+    attributes:
+      label: System Information (system_info.json)
+      description: |
+        Please paste the contents of your `system_info.json` file from the [INVINCIBLEBUG] folder.
+        This file contains your system details, mod version, and Core Library version.
+
+        **Location:**
+        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\system_info.json`
+        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
+        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
+
+        Open the file with a text editor and paste the contents here.
+    validations:
+      required: true
+
+  - type: textarea
     id: logs
     attributes:
-      label: Mod Logs
-      description: Please attach your mod log files from the [INVINCIBLEBUG] folder
-      placeholder: |
-        Windows: C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\
-        macOS: /Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/
-        Linux: ~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/
-        
-        Attach SmartSimulation_YYYYMMDD_HHMMSS.log and SmartSimulation_SimActivity_YYYYMMDD_HHMMSS.log
+      label: Mod Log Files
+      description: |
+        Please paste the contents of your mod log files from the [INVINCIBLEBUG] folder.
+        These logs contain timestamps, errors, and diagnostic information.
+
+        **Location:**
+        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\`
+        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
+        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
+
+        **Paste contents of:**
+        - `SmartSimulation_YYYYMMDD_HHMMSS.log` (main log)
+        - `SmartSimulation_SimActivity_YYYYMMDD_HHMMSS.log` (sim activity log)
+    validations:
+      required: true
+
+  - type: textarea
+    id: last-exception
+    attributes:
+      label: lastException.txt
+      description: |
+        Please paste the contents of `lastException.txt` from your Sims 4 folder.
+        This contains the full stack trace of any errors.
+
+        **Location:**
+        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\lastException.txt`
+        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/lastException.txt`
+        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/lastException.txt`
+      placeholder: Paste the contents of lastException.txt here...
     validations:
       required: false
 
   - type: textarea
     id: game-config-files
     attributes:
-      label: Game Configuration Files (Optional)
-      description: Please attach these Sims 4 game configuration files for debugging game settings related issues
+      label: Game Configuration Files
+      description: |
+        Please paste the contents of these Sims 4 game configuration files.
+        These help diagnose game settings related issues.
+
+        **Location:**
+        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\`
+        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/`
+        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/`
+
+        **Paste contents of any that exist:**
+        - `GameConfig.ini` (game configuration settings)
+        - `Options.ini` (game options)
+        - `OptionsClient.ini` (client options)
+        - `config.log` (game configuration log)
+        - `ConnectionStatus.txt` (connection status information)
+      placeholder: Paste the contents of game config files here...
+    validations:
+      required: false
+
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other Mods Installed
+      description: |
+        List any other mods you have installed, especially:
+        - Better Exceptions
+        - UI Cheats Extension
+        - MCCC
+        - Other performance mods
+        - Any script mods (.ts4script files)
       placeholder: |
-        These files help diagnose game configuration issues:
-        
-        Windows: C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\
-        macOS: /Users/<Username>/Documents/Electronic Arts/The Sims 4/
-        Linux: ~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/
-        
-        Attach (optional):
-        - Config.log (Game configuration log)
-        - ConnectionStatus.txt (Connection status information)
-        - GameConfig.ini (Game configuration settings)
+        Example:
+        - Better Exceptions v2024.1.2
+        - MCCC v1270
+        - UI Cheats Extension v1.1.6
+        - Lot51 Core Library v1.43
     validations:
       required: false
 
@@ -112,8 +191,8 @@ body:
     id: smart-sim-version
     attributes:
       label: Smart Simulation Version
-      description: e.g., 1.0.0
-      placeholder: Enter mod version
+      description: Check system_info.json for the exact version
+      placeholder: e.g., 1.0.0
     validations:
       required: true
 
@@ -121,10 +200,19 @@ body:
     id: sims4-version
     attributes:
       label: Sims 4 Version
-      description: Check in Game Options > About
-      placeholder: Enter Sims 4 version
+      description: Check in Game Options > About or system_info.json
+      placeholder: e.g., 1.126.73.1030
     validations:
       required: true
+
+  - type: input
+    id: core-library-version
+    attributes:
+      label: Core Library Version
+      description: Check system_info.json for the Core Library version
+      placeholder: e.g., 1.43
+    validations:
+      required: false
 
   - type: dropdown
     id: game-language
@@ -162,7 +250,10 @@ body:
     attributes:
       label: Additional Context
       description: Any other context about the problem
-      placeholder: When did the issue start? Does it happen consistently? What were you doing when it occurred?
+      placeholder: |
+        When did the issue start?
+        Does it happen consistently?
+        What were you doing when it occurred?
+        Did the issue start after installing/updating a mod?
     validations:
       required: false
-

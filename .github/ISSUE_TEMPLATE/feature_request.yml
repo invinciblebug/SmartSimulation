@@ -48,6 +48,80 @@ body:
     validations:
       required: false
 
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Information (system_info.json)
+      description: |
+        Please paste the contents of your `system_info.json` file from the [INVINCIBLEBUG] folder.
+        This helps us understand your system configuration for the feature.
+
+        **Location:**
+        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\system_info.json`
+        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
+        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
+
+        Open the file with a text editor and paste the contents here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: game-config-files
+    attributes:
+      label: Game Configuration Files (Optional)
+      description: |
+        Please paste the contents of these Sims 4 game configuration files if relevant to the feature.
+
+        **Location:**
+        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\`
+        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/`
+        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/`
+
+        **Paste contents of any that exist:**
+        - `GameConfig.ini` (game configuration settings)
+        - `Options.ini` (game options)
+        - `OptionsClient.ini` (client options)
+      placeholder: Paste the contents of game config files here...
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Mod Log Files (Optional)
+      description: |
+        If the feature relates to a specific issue, please paste your mod log files.
+
+        **Location:**
+        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\`
+        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
+        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
+
+        **Paste contents of:**
+        - `SmartSimulation_YYYYMMDD_HHMMSS.log` (main log)
+        - `SmartSimulation_SimActivity_YYYYMMDD_HHMMSS.log` (sim activity log)
+      placeholder: Paste the contents of mod log files here...
+    validations:
+      required: false
+
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other Mods Installed
+      description: |
+        List any other mods you have installed, especially:
+        - Better Exceptions
+        - UI Cheats Extension
+        - MCCC
+        - Other performance mods
+      placeholder: |
+        Example:
+        - Better Exceptions v2024.1.2
+        - MCCC v1270
+        - UI Cheats Extension v1.1.6
+    validations:
+      required: false
+
   - type: dropdown
     id: priority
     attributes:
@@ -69,4 +143,3 @@ body:
       placeholder: Add any additional information...
     validations:
       required: false
-

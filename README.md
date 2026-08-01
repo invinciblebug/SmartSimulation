@@ -72,26 +72,6 @@ Smart Simulation addresses common gameplay issues:
 > [!TIP]
 > Enable script mods in Game Options > Other > Enable Custom Content and Mods before installing.
 
-> [!IMPORTANT]
-> **Required Dependencies**
-> Smart Simulation requires the following mods to function. You must install both before using this mod.
->
-> **1. Core Library by Lot 51**
-> - **Download:** https://lot51.cc/mods/core-library
-> - Place `lot51_core.ts4script` in your Mods folder (directly in Mods or only one subfolder deep)
->
-> **2. XML Injector by Scumbumbo**
-> - **Download:** https://scumbumbomods.com/xml-injector
-> - Place `XmlInjector_Script_v4.2.ts4script` in your Mods folder (directly in Mods or only one subfolder deep)
-
-> [!NOTE]
-> **Script Mod Installation Rule**
-> Script mods (.ts4script files) must be placed:
-> - Directly in the Mods folder, OR
-> - Only one subfolder deep inside Mods folder
-> 
-> Do NOT place script mods two or more subfolders deep, or they will not load. This rule applies to Smart Simulation, Core Library, and XML Injector.
-
 1. Download the latest release from the **Releases** page.
 2. Extract the files.
 3. Copy the included files into:
@@ -108,6 +88,30 @@ Documents/Electronic Arts/The Sims 4/Mods/
 5. Restart The Sims 4.
 
 The mod file is named: `[INVINCIBLEBUG] SmartSimulation v{version}.ts4script`
+
+**Note:** Smart Simulation uses Core Library's Python API for tuning injection - no custom .package files are needed. All tuning is handled through Python code using Core Library's TuningInjector.
+
+## Dependencies
+
+Smart Simulation requires **Core Library** by Lot 51.
+
+- **Download**: https://lot51.cc/mods/core-library
+- **Required**: `lot51_core.ts4script`
+- **Version**: Latest recommended
+
+Core Library provides:
+- Event system for zone load/unload hooks
+- Logger for mod logging
+- Config for persistent user settings
+- TuningInjector for XML tuning injection (Python API)
+
+> Script mods (.ts4script files) must be placed:
+> - Directly in the Mods folder, OR
+> - Only one subfolder deep inside Mods folder
+>
+> Do NOT place script mods two or more subfolders deep, or they will not load. This rule applies to Smart Simulation and Core Library.
+
+The release bundle includes `lot51_core.ts4script` which must be installed alongside Smart Simulation.
 
 ---
 
