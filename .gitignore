@@ -122,5 +122,8 @@ core/build/[INVINCIBLEBUG] SmartSimulation v*.zip
 # Core repository (separate private repo)
 core/
 
+# Core Library (Lot 51 dependency)
+core-library/
+
 # Sims 4
 Mods/

@@ -70,23 +70,6 @@ body:
       required: true
 
   - type: textarea
-    id: system-info
-    attributes:
-      label: System Information (system_info.json)
-      description: |
-        Please paste the contents of your `system_info.json` file from the [INVINCIBLEBUG] folder.
-        This file contains your system details, mod version, and Core Library version.
-
-        **Location:**
-        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\system_info.json`
-        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
-        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
-
-        Open the file with a text editor and paste the contents here.
-    validations:
-      required: true
-
-  - type: textarea
     id: logs
     attributes:
       label: Mod Log Files
@@ -145,6 +128,20 @@ body:
       required: false
 
   - type: textarea
+    id: better-exceptions
+    attributes:
+      label: Better Exceptions Errors
+      description: |
+        If you are using Better Exceptions mod, did it show any errors for Smart Simulation?
+        Paste any error messages from Better Exceptions here.
+      placeholder: |
+        Paste Better Exceptions errors here (if any)...
+        
+        If no errors, leave blank.
+    validations:
+      required: false
+
+  - type: textarea
     id: other-mods
     attributes:
       label: Other Mods Installed
@@ -191,7 +188,7 @@ body:
     id: smart-sim-version
     attributes:
       label: Smart Simulation Version
-      description: Check system_info.json for the exact version
+      description: Check the mod filename for version (e.g., v1.0.0)
       placeholder: e.g., 1.0.0
     validations:
       required: true
@@ -200,7 +197,7 @@ body:
     id: sims4-version
     attributes:
       label: Sims 4 Version
-      description: Check in Game Options > About or system_info.json
+      description: Check in Game Options > About or Config.log
       placeholder: e.g., 1.126.73.1030
     validations:
       required: true
@@ -209,7 +206,7 @@ body:
     id: core-library-version
     attributes:
       label: Core Library Version
-      description: Check system_info.json for the Core Library version
+      description: Check Config.log for Core Library version
       placeholder: e.g., 1.43
     validations:
       required: false

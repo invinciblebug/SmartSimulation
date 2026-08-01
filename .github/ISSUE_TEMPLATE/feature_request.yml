@@ -49,23 +49,6 @@ body:
       required: false
 
   - type: textarea
-    id: system-info
-    attributes:
-      label: System Information (system_info.json)
-      description: |
-        Please paste the contents of your `system_info.json` file from the [INVINCIBLEBUG] folder.
-        This helps us understand your system configuration for the feature.
-
-        **Location:**
-        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\system_info.json`
-        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
-        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/system_info.json`
-
-        Open the file with a text editor and paste the contents here.
-    validations:
-      required: false
-
-  - type: textarea
     id: game-config-files
     attributes:
       label: Game Configuration Files (Optional)
