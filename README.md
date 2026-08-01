@@ -101,7 +101,7 @@ If the game is offline or the internet is unavailable, update checks are skipped
 The mod creates its logs inside:
 
 ```text
-Documents/Electronic Arts/The Sims 4/SmartSimulation/
+Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/
 ```
 
 Example log files (with date/time timestamps):
@@ -112,7 +112,7 @@ SmartSimulation_SimActivity_20260801_010354.log
 .installed (marker file for first-time installation)
 ```
 
-Log files include date/time timestamps (YYYYMMDD_HHMMSS format) for professional organization and easy identification. Logs are automatically rotated when they exceed 10MB and deleted after 30 days.
+Log files include date/time timestamps (YYYYMMDD_HHMMSS format) for professional organization and easy identification. Each log file starts with comprehensive system information including OS, CPU, RAM, storage, Sims 4 version, and system ID for debugging purposes. Logs are automatically rotated when they exceed 10MB and deleted after 30 days.
 
 ---
 
@@ -228,13 +228,17 @@ Smart Simulation supports all major platforms:
 - **macOS** - Full support
 - **Linux** - Full support (including Steam/Proton, Lutris, and EA App versions)
 
+**Does this mod work with the free version of The Sims 4? Do I need expansion packs?**
+
+Yes, Smart Simulation works with any version of The Sims 4, including the free version. You do not need any expansion packs or DLC for this mod to function. The mod is designed to work with the base game and all expansion packs, game packs, stuff packs, and kits. It will work regardless of which version or combination of content you have installed.
+
 **Can I use this mod with other simulation optimization mods?**
 
 While Smart Simulation is designed to be compatible, using multiple simulation optimization mods together is generally not recommended as they may interfere with each other. It's best to test one at a time.
 
 **How do I know if the mod is working?**
 
-The mod creates log files in `Documents/Electronic Arts/The Sims 4/SmartSimulation/`. You can check these logs to see if the mod is active. You can also use the in-game cheat command `ss.status` to see the mod's current status.
+The mod creates log files in `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`. You can check these logs to see if the mod is active. You can also use the in-game cheat command `ss.status` to see the mod's current status.
 
 **Can I disable the mod temporarily?**
 
