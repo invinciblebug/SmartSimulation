@@ -117,7 +117,7 @@ Thumbs.db
 [INVINCIBLEBUG]*.package
 
 # Release zip files (uploaded to GitHub releases and CurseForge)
-[INVINCIBLEBUG]-SmartSimulation-v*.zip
+core/build/[INVINCIBLEBUG]-SmartSimulation-v*.zip
 
 # Core repository (separate private repo)
 core/
