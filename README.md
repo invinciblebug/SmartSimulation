@@ -10,8 +10,9 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 > **Official Sources Only**
 > Always download Smart Simulation from official sources to ensure you get the latest, safe version:
 > - **GitHub Releases**: https://github.com/invinciblebug/SmartSimulation/releases
+> - **CurseForge**: https://www.curseforge.com/sims4/mods/smart-simulation
 > - **Official Website**: https://invinciblebug.github.io
-> 
+ 
 > Avoid downloading from third-party sites unless you trust the source.
 
 > [!NOTE]
