@@ -87,6 +87,8 @@ Documents/Electronic Arts/The Sims 4/Mods/
 
 5. Restart The Sims 4.
 
+The mod file is named: `[INVINCIBLEBUG] SmartSimulation-{version}.ts4script`
+
 ---
 
 ## Update Checks
