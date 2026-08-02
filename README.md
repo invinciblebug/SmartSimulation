@@ -101,13 +101,13 @@ Smart Simulation is designed to be non-invasive. It only does these things:
 
 * **Detects stuck Sims** - When a Sim freezes or stops responding, the mod notices
 * **Recovers stuck Sims** - Automatically gets stuck Sims moving again
-* **Speeds up loading screens** - Makes loading screens faster with an adjustable multiplier
+* **Optimizes loading screens** - Makes loading screens faster with an adjustable multiplier
+* **Tunes game performance** - Adjusts time slice and clock speed for smoother simulation
 * **Logs errors with context** - When something goes wrong, it saves detailed info to help fix it
 
 ## What This Mod Does NOT Do
 
 * **Does NOT change autonomy** - Your Sim's decision-making stays exactly the same
-* **Does NOT modify tuning** - Game settings and balances are untouched
 * **Does NOT affect other mods** - Works alongside MCCC, Basemental, Meaningful Stories, etc.
 * **Does NOT change game speed** - Simulation runs at normal speed (except during loading)
 * **Does NOT alter NPC behavior** - Background Sims act normally
