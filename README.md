@@ -283,15 +283,22 @@ Smart Simulation is the result of my efforts to optimize simulation performance 
 
 ## FAQ
 
-**Does this mod conflict with other mods?**
+<details open>
+<summary><strong>Does this mod conflict with other mods?</strong></summary>
 
 No, Smart Simulation is designed to be compatible with most mods. However, some mods like MCCC (MC Command Center) may have conflicts if you manually change certain settings. I've made sure it won't conflict unless there are specific updates or changes to those mods.
 
-**Does this mod get regular updates?**
+</details>
+
+<details>
+<summary><strong>Does this mod get regular updates?</strong></summary>
 
 Yes! Smart Simulation receives regular updates with testing and improvements. I actively maintain and test the mod to ensure compatibility with the latest Sims 4 versions and to address any issues that arise.
 
-**I have an issue, what should I do?**
+</details>
+
+<details>
+<summary><strong>I have an issue, what should I do?</strong></summary>
 
 Please report any issues on GitHub Issues. You'll need to sign in to GitHub to create an issue. I'll resolve issues as fast as possible. When reporting, please include:
 - Smart Simulation version
@@ -299,58 +306,97 @@ Please report any issues on GitHub Issues. You'll need to sign in to GitHub to c
 - A clear description of the issue
 - **ALL log files from the date the issue occurred** (ss-*.log, act-*.log, config-*.log)
 
-**Is this mod paid?**
+</details>
+
+<details>
+<summary><strong>Is this mod paid?</strong></summary>
 
 No, Smart Simulation is completely free to use. There are no costs or fees associated with downloading or using this mod.
 
-**Does this mod contain malware or viruses?**
+</details>
+
+<details>
+<summary><strong>Does this mod contain malware or viruses?</strong></summary>
 
 No, Smart Simulation does not contain any malware or viruses. The mod is safe to use and only contains the code necessary for simulation optimization.
 
-**Will this mod slow down my game?**
+</details>
+
+<details>
+<summary><strong>Will this mod slow down my game?</strong></summary>
 
 No, Smart Simulation is designed to be lightweight and focused on performance. It should actually improve your game's performance by reducing simulation slowdowns and stalls.
 
-**Does this mod make my game load faster?**
+</details>
+
+<details>
+<summary><strong>Does this mod make my game load faster?</strong></summary>
 
 No, this mod does not significantly affect game loading times. It may have a very small effect depending on your PC or laptop specifications, but its primary purpose is to make gameplay smoother and prevent the simulation from getting stuck, not to make your game load faster.
 
-**Does this mod make my game super fast?**
+</details>
+
+<details>
+<summary><strong>Does this mod make my game super fast?</strong></summary>
 
 No, Smart Simulation does not make your game extraordinarily fast. It focuses on making gameplay smooth and preventing Sims from getting stuck or the timeline from freezing. The mod optimizes simulation responsiveness rather than increasing overall game speed.
 
-**What platforms does this mod support?**
+</details>
+
+<details>
+<summary><strong>What platforms does this mod support?</strong></summary>
 
 Smart Simulation supports all major platforms:
 - **Windows** - Full support
 - **macOS** - Full support
 - **Linux** - Full support (including Steam/Proton, Lutris, and EA App versions)
 
-**Does this mod work with the free version of The Sims 4? Do I need expansion packs?**
+</details>
+
+<details>
+<summary><strong>Does this mod work with the free version of The Sims 4? Do I need expansion packs?</strong></summary>
 
 Yes, Smart Simulation works with any version of The Sims 4, including the free version. You do not need any expansion packs or DLC for this mod to function. The mod is designed to work with the base game and all expansion packs, game packs, stuff packs, and kits. It will work regardless of which version or combination of content you have installed.
 
-**Can I use this mod with other simulation optimization mods?**
+</details>
+
+<details>
+<summary><strong>Can I use this mod with other simulation optimization mods?</strong></summary>
 
 While Smart Simulation is designed to be compatible, using multiple simulation optimization mods together is generally not recommended as they may interfere with each other. It's best to test one at a time.
 
-**How do I know if the mod is working?**
+</details>
+
+<details>
+<summary><strong>How do I know if the mod is working?</strong></summary>
 
 The mod creates log files in `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`. You can check these logs to see if the mod is active. The `config-DD-MM-YYYY.log` file shows your current configuration. You can also use the in-game cheat command `ss.status` to see the mod's current status.
 
-**Can I disable the mod temporarily?**
+</details>
+
+<details>
+<summary><strong>Can I disable the mod temporarily?</strong></summary>
 
 Yes, you can disable the mod by removing the `.ts4script` and `.package` files from your Mods folder, or by renaming them with a `.disabled` extension.
 
-**Does this mod work with all expansion packs?**
+</details>
+
+<details>
+<summary><strong>Does this mod work with all expansion packs?</strong></summary>
 
 Yes, Smart Simulation is designed to work with all Sims 4 expansion packs, game packs, and stuff packs, including the latest releases.
 
-**Will this mod affect my save files?**
+</details>
+
+<details>
+<summary><strong>Will this mod affect my save files?</strong></summary>
 
 No, Smart Simulation does not modify your save files. It only affects the simulation runtime and does not make permanent changes to your game data.
 
-**My game is still slow, what should I do?**
+</details>
+
+<details>
+<summary><strong>My game is still slow, what should I do?</strong></summary>
 
 If your game is still experiencing slowdowns after installing Smart Simulation, please report the issue by creating a bug report on GitHub:
 
@@ -370,13 +416,21 @@ This helps me investigate the issue and provide a fix or workaround. Common caus
 - Outdated game or mod versions
 - Large households with many Sims
 
-**Where is the source code?**
+</details>
+
+<details>
+<summary><strong>Where is the source code?</strong></summary>
 
 This project is currently proprietary, so the source code is not released publicly. The mod is provided as compiled `.ts4script` and `.package` files for use in The Sims 4.
 
-**Is this project open source?**
+</details>
+
+<details>
+<summary><strong>Is this project open source?</strong></summary>
 
 No, currently this project is not open source. However, in the future I may consider releasing it as open source to allow others to use, modify, and improve the code, and to enable contributions on GitHub.
+
+</details>
 
 ---
 
