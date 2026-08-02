@@ -136,10 +136,16 @@ Example log files:
 ```text
 ss-01-08-2026.log
 act-01-08-2026.log
+smart_simulation.dat
+LICENSE
+README.md
 .installed (marker file for first-time installation)
 ```
 
 Log files use daily date-stamped filenames (DD-MM-YYYY format). Logs older than 30 days are automatically deleted. On-demand file I/O ensures no file handles are kept open.
+
+> [!TIP]
+> On first load, the mod creates a `README.md` file in the `[INVINCIBLEBUG]` folder with complete documentation of all configuration options and cheat commands. Check it for detailed settings reference.
 
 ---
 
