@@ -36,18 +36,15 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 * **Stall Recovery** - Automatically detects and recovers from Sims freezing or getting stuck
 * **Timeline Freeze Detection** - Detects when the game's internal timeline gets stuck and recovers gracefully
 * **Head Bobbing Prevention** - Fixes the annoying "head bob" freeze effect where Sims stare into space
-* **NPC Autonomy Scaling** - Intelligently adjusts how much background NPCs think and act to save performance
-* **Baby & Child Optimization** - Reduces unnecessary processing for infants and toddlers
-* **Household Size Optimization** - Automatically scales performance based on how many Sims you have
-* **Unlimited Sims Support** - Progressive scaling handles 20+ Sims households without lag
 * **Fast Loading Screen** - Speeds up the loading screen with an adjustable multiplier
 * **Routing Stall Detection** - Detects and recovers from Sims stuck pathfinding
+* **Detailed Error Logs** - Includes sim info, lot details, and queued actions when errors occur
 * **Automatic Updates** - Notifies you when a new version is available
 * **In-Game Debug Commands** - View status, change settings, and run diagnostics without leaving the game
-* **Detailed Logging** - Creates daily logs for diagnosing any issues
 * **Cross-Platform** - Works on Windows, macOS, and Linux (including Steam/Proton)
 * **Offline-Friendly** - Works perfectly without internet connection
 * **Lightweight** - No performance overhead, only optimizations
+* **Mod Compatible** - Works alongside MCCC, Basemental, Meaningful Stories, and other mods
 
 ---
 
@@ -60,13 +57,9 @@ Smart Simulation fixes these common gameplay problems:
 * **Head Bobbing** - Sims stare into space with a frozen "head bob" effect
 * **Stalled Interactions** - Interactions get stuck and never complete
 * **Eating/Cleaning/Sleeping Problems** - Sims refuse to complete basic needs actions
-* **NPC Performance Lag** - Too many background NPCs thinking and pathfinding causes slowdowns
-* **Baby/Toddler Performance** - Infants and toddlers causing unnecessary simulation overhead
-* **Large Household Lag** - Households with many Sims become unplayable
 * **Slow Loading Screens** - Loading screens take too long
 * **Routing Failures** - Sims get stuck trying to walk somewhere
 * **Simulation Slowdowns** - General lag during busy gameplay moments
-* **Head Bob Freeze** - The infamous "head bob" effect where Sims freeze mid-animation
 
 ---
 
@@ -75,39 +68,36 @@ Smart Simulation fixes these common gameplay problems:
 * **Smoother Simulation** - Game runs at consistent speed without stuttering
 * **Reduced Lag** - Minimizes slowdowns during busy gameplay moments
 * **Faster Loading** - Adjustable loading screen speed multiplier
-* **Better Large Household Performance** - Households with 8+ Sims run much smoother
-* **NPC Background Processing** - Smarter NPC behavior reduces wasted CPU cycles
-* **Baby/Toddler Optimization** - Infants and toddlers cause less performance impact
 * **No Compatibility Issues** - Designed to work with other mods including MCCC
 * **Safe & Reversible** - All optimizations can be disabled individually
 * **Zero Overhead** - The mod itself uses negligible resources
-* **Automatic Scaling** - Performance adjustments happen automatically based on your household size
 
 ---
 
-## Household Optimization
+## What This Mod Does NOT Do
 
-Smart Simulation automatically adapts to your gameplay:
+Smart Simulation is designed to be non-invasive:
 
-* **Small Households (1-8 Sims)** - Full simulation, no changes
-* **Medium Households (9-15 Sims)** - Gradual reduction of background processing
-* **Large Households (16-20 Sims)** - Significant NPC and baby/child optimization
-* **Unlimited Sims (20+)** - Progressive scaling keeps your game playable
+* **Does NOT change autonomy** - Your sim's decision-making stays exactly the same
+* **Does NOT modify tuning** - Game settings and balances are untouched
+* **Does NOT affect other mods** - Works alongside MCCC, Basemental, Meaningful Stories, etc.
+* **Does NOT change game speed** - Simulation runs at normal speed (except during loading)
+* **Does NOT alter NPC behavior** - Background sims act normally
 
-NPCs, babies, and children are automatically scaled down based on your household size to keep the game running smoothly.
+The mod only detects when something gets stuck and recovers it. That's it.
 
 ---
 
-## Customization
+## Detailed Error Logging
 
-Everything is configurable. Adjust settings in-game or via the config file:
+When an error or crash occurs, Smart Simulation logs detailed information to help diagnose the issue:
 
-* **Toggle features** on/off individually
-* **Adjust thresholds** for stall detection and recovery
-* **Set loading speed** multiplier (1x to 10x)
-* **Configure NPC scaling** and baby/child optimization levels
-* **Enable verbose logging** for troubleshooting
-* **Runtime changes** - modify settings without restarting the game
+* **Sim Info** - Which sim caused the error (name, age, NPC status)
+* **Lot Details** - Current lot name and how many sims are on it
+* **Queued Actions** - What the sim was trying to do when the error occurred
+* **Full Traceback** - Complete error stack trace for debugging
+
+This information is included in the `ss-DD-MM-YYYY.log` file and helps identify exactly what caused the issue.
 
 ---
 
