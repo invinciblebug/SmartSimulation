@@ -33,37 +33,81 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 
 ## Features
 
-* **Improved Simulation Stability** - Reduces simulation slowdowns and keeps gameplay feeling responsive
-* **Stall Recovery** - Automatically detects and recovers from stalled interactions
-* **Smoother Gameplay** - Designed for more reliable and consistent simulation performance
-* **Lightweight** - Focused on performance without unnecessary overhead
+* **Stall Recovery** - Automatically detects and recovers from Sims freezing or getting stuck
+* **Timeline Freeze Detection** - Detects when the game's internal timeline gets stuck and recovers gracefully
+* **Head Bobbing Prevention** - Fixes the annoying "head bob" freeze effect where Sims stare into space
+* **NPC Autonomy Scaling** - Intelligently adjusts how much background NPCs think and act to save performance
+* **Baby & Child Optimization** - Reduces unnecessary processing for infants and toddlers
+* **Household Size Optimization** - Automatically scales performance based on how many Sims you have
+* **Unlimited Sims Support** - Progressive scaling handles 20+ Sims households without lag
+* **Fast Loading Screen** - Speeds up the loading screen with an adjustable multiplier
+* **Routing Stall Detection** - Detects and recovers from Sims stuck pathfinding
 * **Automatic Updates** - Notifies you when a new version is available
-* **Troubleshooting Logs** - Creates detailed logs for diagnosing issues
+* **In-Game Debug Commands** - View status, change settings, and run diagnostics without leaving the game
+* **Detailed Logging** - Creates daily logs for diagnosing any issues
+* **Cross-Platform** - Works on Windows, macOS, and Linux (including Steam/Proton)
 * **Offline-Friendly** - Works perfectly without internet connection
-* **Cross-Platform** - Built for Windows, macOS, and Linux versions of The Sims 4
+* **Lightweight** - No performance overhead, only optimizations
 
 ---
 
 ## Issues Resolved
 
-Smart Simulation addresses common gameplay issues:
+Smart Simulation fixes these common gameplay problems:
 
-* **Sims Standing Still** - Prevents Sims from freezing and refusing to perform actions
-* **Eating/Cleaning/Sleeping Problems** - Fixes Sims who refuse to complete basic needs interactions
-* **Simulation Slowdowns** - Reduces lag and keeps the simulation running smoothly
-* **Stalled Interactions** - Automatically recovers from interactions that get stuck
-* **Head Bobbing** - Helps prevent the "head bob" freeze effect
-* **Timeline Freezes** - Detects and recovers from timeline stalls
+* **Sims Standing Still** - Sims freeze and refuse to perform any actions
+* **Timeline Freezes** - The game simulation gets stuck and Sims stop progressing
+* **Head Bobbing** - Sims stare into space with a frozen "head bob" effect
+* **Stalled Interactions** - Interactions get stuck and never complete
+* **Eating/Cleaning/Sleeping Problems** - Sims refuse to complete basic needs actions
+* **NPC Performance Lag** - Too many background NPCs thinking and pathfinding causes slowdowns
+* **Baby/Toddler Performance** - Infants and toddlers causing unnecessary simulation overhead
+* **Large Household Lag** - Households with many Sims become unplayable
+* **Slow Loading Screens** - Loading screens take too long
+* **Routing Failures** - Sims get stuck trying to walk somewhere
+* **Simulation Slowdowns** - General lag during busy gameplay moments
+* **Head Bob Freeze** - The infamous "head bob" effect where Sims freeze mid-animation
 
 ---
 
 ## Performance Benefits
 
-* **Faster Simulation** - Improves overall simulation responsiveness
+* **Smoother Simulation** - Game runs at consistent speed without stuttering
 * **Reduced Lag** - Minimizes slowdowns during busy gameplay moments
-* **Smoother Transitions** - Better handling of interaction transitions
-* **Consistent Performance** - More reliable simulation across different save types
-* **Safe Optimizations** - All improvements are designed to be safe and reversible
+* **Faster Loading** - Adjustable loading screen speed multiplier
+* **Better Large Household Performance** - Households with 8+ Sims run much smoother
+* **NPC Background Processing** - Smarter NPC behavior reduces wasted CPU cycles
+* **Baby/Toddler Optimization** - Infants and toddlers cause less performance impact
+* **No Compatibility Issues** - Designed to work with other mods including MCCC
+* **Safe & Reversible** - All optimizations can be disabled individually
+* **Zero Overhead** - The mod itself uses negligible resources
+* **Automatic Scaling** - Performance adjustments happen automatically based on your household size
+
+---
+
+## Household Optimization
+
+Smart Simulation automatically adapts to your gameplay:
+
+* **Small Households (1-8 Sims)** - Full simulation, no changes
+* **Medium Households (9-15 Sims)** - Gradual reduction of background processing
+* **Large Households (16-20 Sims)** - Significant NPC and baby/child optimization
+* **Unlimited Sims (20+)** - Progressive scaling keeps your game playable
+
+NPCs, babies, and children are automatically scaled down based on your household size to keep the game running smoothly.
+
+---
+
+## Customization
+
+Everything is configurable. Adjust settings in-game or via the config file:
+
+* **Toggle features** on/off individually
+* **Adjust thresholds** for stall detection and recovery
+* **Set loading speed** multiplier (1x to 10x)
+* **Configure NPC scaling** and baby/child optimization levels
+* **Enable verbose logging** for troubleshooting
+* **Runtime changes** - modify settings without restarting the game
 
 ---
 
@@ -89,29 +133,34 @@ Documents/Electronic Arts/The Sims 4/Mods/
 
 The mod file is named: `[INVINCIBLEBUG] SmartSimulation v{version}.ts4script`
 
-**Note:** Smart Simulation uses Core Library's Python API for tuning injection - no custom .package files are needed. All tuning is handled through Python code using Core Library's TuningInjector.
+---
+
+## In-Game Commands
+
+Use these commands in the cheat console (Ctrl+Shift+C) while in Live mode:
+
+| Command | Description |
+|---------|-------------|
+| `ss.status` | Show mod status and statistics |
+| `ss.config` | Show all current settings |
+| `ss.set_config <key> <value>` | Change a setting and save it |
+| `ss.dump_timeline` | Dump timeline heap to log file |
+| `ss.reset_state` | Reset watchdog state manually |
+| `ss.diagnostics` | Dump full diagnostic report to log |
+| `ss.help` | Show all available commands |
+
+Example: `ss.set_config loading_speed_multiplier 5` to speed up loading screens.
 
 ## Dependencies
 
-Smart Simulation requires **Core Library** by Lot 51.
+Smart Simulation requires **Core Library** by Lot 51 to function.
 
 - **Download**: https://lot51.cc/mods/core-library
 - **Required**: `lot51_core.ts4script`
-- **Version**: Latest recommended
+- **Included**: The release bundle includes Core Library - no separate download needed
 
-Core Library provides:
-- Event system for zone load/unload hooks
-- Logger for mod logging
-- Config for persistent user settings
-- TuningInjector for XML tuning injection (Python API)
-
-> Script mods (.ts4script files) must be placed:
-> - Directly in the Mods folder, OR
-> - Only one subfolder deep inside Mods folder
->
-> Do NOT place script mods two or more subfolders deep, or they will not load. This rule applies to Smart Simulation and Core Library.
-
-The release bundle includes `lot51_core.ts4script` which must be installed alongside Smart Simulation.
+> [!IMPORTANT]
+> Both files must be in your Mods folder for the mod to work.
 
 ---
 
