@@ -13,6 +13,7 @@
 [![Core Library](https://img.shields.io/badge/Core%20Library-v1.43-orange?style=flat-square)](https://lot51.cc/mods/core-library)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](#installation)
 [![Donate](https://img.shields.io/badge/Donate-Cryptocurrency-yellow?style=flat-square)](#support-my-work)
+[![Hits](https://hits.sh/github.com/invinciblebug/SmartSimulation.svg?label=Views)](https://hits.sh/github.com/invinciblebug/SmartSimulation/)
 
 </div>
 
