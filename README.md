@@ -6,12 +6,13 @@
 
 [![GitHub Issues](https://img.shields.io/github/issues/invinciblebug/SmartSimulation?style=flat-square&color=red)](https://github.com/invinciblebug/SmartSimulation/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/invinciblebug/SmartSimulation?style=flat-square&color=blue)](https://github.com/invinciblebug/SmartSimulation/pulls)
-[![GitHub License](https://img.shields.io/github/license/invinciblebug/SmartSimulation?style=flat-square&color=green)](https://github.com/invinciblebug/SmartSimulation/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/blob/main/LICENSE)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/invinciblebug/SmartSimulation?style=flat-square&color=orange)](https://github.com/invinciblebug/SmartSimulation/commits/main)
 [![GitHub Release](https://img.shields.io/github/v/release/invinciblebug/SmartSimulation?style=flat-square&color=purple)](https://github.com/invinciblebug/SmartSimulation/releases)
 [![Sims 4 Version](https://img.shields.io/badge/Sims%204-v1.126.73.1030-blue?style=flat-square)](https://www.ea.com/games/the-sims/the-sims-4)
 [![Core Library](https://img.shields.io/badge/Core%20Library-v1.43-orange?style=flat-square)](https://lot51.cc/mods/core-library)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](https://github.com/invinciblebug/SmartSimulation)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](#installation)
+[![Donate](https://img.shields.io/badge/Donate-Cryptocurrency-yellow?style=flat-square)](#support-my-work)
 
 </div>
 
@@ -434,7 +435,8 @@ No, currently this project is not open source. However, in the future I may cons
 
 ---
 
-## Support My Work
+<details>
+<summary><strong>Support My Work</strong></summary>
 
 If you'd like to support the development of my open-source projects and mods, you can donate using any of the following cryptocurrencies.
 
@@ -501,6 +503,8 @@ DBxmkbfwV7GYsGxY7rcWMkiXhQwqAZB3rn
 **Important:** Please ensure you send each cryptocurrency using the correct blockchain network. Transactions sent using an unsupported network may be unrecoverable.
 
 Thank you for your support! Every contribution helps me continue developing, maintaining, and improving free software, open-source projects, and mods for the community.
+
+</details>
 
 ---
 
