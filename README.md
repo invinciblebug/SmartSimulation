@@ -430,6 +430,23 @@ This project is currently proprietary, so the source code is not released public
 </details>
 
 <details>
+<summary><strong>How can I support you?</strong></summary>
+
+Thank you for asking! You can support the development of Smart Simulation in the following ways:
+
+1. **Star the repository** - Sign in to GitHub and star this project. It helps others discover the mod.
+
+2. **Donate cryptocurrency** - Any amount is fine, no matter how small. Your support helps cover development time, maintenance, bug fixes, compatibility updates, and documentation. See the [Support My Work](#support-my-work) section for wallet addresses.
+
+3. **Share the mod** - Tell your friends or share it on social media.
+
+4. **Report issues** - Help improve the mod by reporting bugs on [GitHub Issues](https://github.com/invinciblebug/SmartSimulation/issues/new?template=bug_report.yml).
+
+Every contribution, no matter the size, is greatly appreciated and helps keep this project active!
+
+</details>
+
+<details>
 <summary><strong>Is this project open source?</strong></summary>
 
 No, currently this project is not open source. However, in the future I may consider releasing it as open source to allow others to use, modify, and improve the code, and to enable contributions on GitHub.
