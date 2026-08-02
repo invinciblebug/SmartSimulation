@@ -41,6 +41,9 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 > [!TIP]
 > **Star this Repository**
 > If you love this mod and want to help keep it active, all you have to do is sign in to GitHub and star this repository project. It shows your appreciation and helps others discover the mod. Thank you for your support!
+>
+> **Support Development**
+> You can also support development by donating cryptocurrency. Every contribution helps maintain and improve the mod. See the [Support My Work](#support-my-work) section for details.
 
 > [!NOTE]
 > **Report Issues**
