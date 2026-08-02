@@ -74,17 +74,22 @@ body:
     attributes:
       label: Mod Log Files
       description: |
-        Please paste the contents of your mod log files from the [INVINCIBLEBUG] folder.
-        These logs contain timestamps, errors, and diagnostic information.
+        Please paste the contents of ALL log files from the [INVINCIBLEBUG] folder.
+        Include ALL files from the date the issue occurred — these logs contain timestamps, errors, and diagnostic information.
 
         **Location:**
         - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\`
         - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
         - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
 
-        **Paste contents of:**
-        - `ss-DD-MM-YYYY.log` (main log)
-        - `act-DD-MM-YYYY.log` (sim activity log)
+        **Paste contents of ALL these files (from the same date):**
+        - `ss-DD-MM-YYYY.log` (main log — required)
+        - `act-DD-MM-YYYY.log` (sim activity log — required)
+        - `config-DD-MM-YYYY.log` (config state log — required)
+
+        > [!IMPORTANT]
+        > Always include the config log file. It shows your current configuration and any overrides,
+        > which helps diagnose configuration-related issues.
     validations:
       required: true
 

@@ -73,7 +73,7 @@ body:
     attributes:
       label: Mod Log Files (Optional)
       description: |
-        If the feature relates to a specific issue, please paste your mod log files.
+        If the feature relates to a specific issue, please paste your mod log files from the date the issue occurred.
 
         **Location:**
         - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\`
@@ -83,6 +83,7 @@ body:
         **Paste contents of:**
         - `ss-DD-MM-YYYY.log` (main log)
         - `act-DD-MM-YYYY.log` (sim activity log)
+        - `config-DD-MM-YYYY.log` (config state log)
       placeholder: Paste the contents of mod log files here...
     validations:
       required: false

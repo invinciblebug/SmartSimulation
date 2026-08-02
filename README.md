@@ -136,16 +136,22 @@ Example log files:
 ```text
 ss-01-08-2026.log
 act-01-08-2026.log
+config-01-08-2026.log
 smart_simulation.dat
 LICENSE
 README.md
-.installed (marker file for first-time installation)
 ```
 
 Log files use daily date-stamped filenames (DD-MM-YYYY format). Logs older than 30 days are automatically deleted. On-demand file I/O ensures no file handles are kept open.
 
 > [!TIP]
 > On first load, the mod creates a `README.md` file in the `[INVINCIBLEBUG]` folder with complete documentation of all configuration options and cheat commands. Check it for detailed settings reference.
+
+> [!IMPORTANT]
+> When reporting issues, always include ALL log files from the date the issue occurred:
+> - `ss-DD-MM-YYYY.log` (main log)
+> - `act-DD-MM-YYYY.log` (sim activity log)
+> - `config-DD-MM-YYYY.log` (config state log)
 
 ---
 
@@ -173,7 +179,10 @@ If you run into a problem, please:
    * Smart Simulation version
    * The Sims 4 version
    * A clear description of the issue
-   * Relevant log files if available (from `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`)
+   * **ALL log files from the date the issue occurred** (from `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`):
+     - `ss-DD-MM-YYYY.log` (main log)
+     - `act-DD-MM-YYYY.log` (sim activity log)
+     - `config-DD-MM-YYYY.log` (config state log)
 
 3. **For discussions, questions, or help**, start a discussion at:
    **https://github.com/invinciblebug/SmartSimulation/discussions**
@@ -232,7 +241,7 @@ Please report any issues on GitHub Issues. You'll need to sign in to GitHub to c
 - Smart Simulation version
 - The Sims 4 version
 - A clear description of the issue
-- Relevant log files if available
+- **ALL log files from the date the issue occurred** (ss-*.log, act-*.log, config-*.log)
 
 **Is this mod paid?**
 
@@ -271,7 +280,7 @@ While Smart Simulation is designed to be compatible, using multiple simulation o
 
 **How do I know if the mod is working?**
 
-The mod creates log files in `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`. You can check these logs to see if the mod is active. You can also use the in-game cheat command `ss.status` to see the mod's current status.
+The mod creates log files in `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`. You can check these logs to see if the mod is active. The `config-DD-MM-YYYY.log` file shows your current configuration. You can also use the in-game cheat command `ss.status` to see the mod's current status.
 
 **Can I disable the mod temporarily?**
 
