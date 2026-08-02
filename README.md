@@ -1,4 +1,6 @@
 <div align="center">
+  
+<img  alt="banner" src="https://github.com/user-attachments/assets/77502633-3f3a-4582-ae69-14fffcdae2e0" />
 
 # Smart Simulation
 
