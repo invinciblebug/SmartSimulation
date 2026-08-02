@@ -162,6 +162,21 @@ Use these commands in the cheat console (Ctrl+Shift+C) while in Live mode:
 
 Example: `ss.set_config loading_speed_multiplier 5` to speed up loading screens.
 
+### Configuration File (.dat)
+
+You can also configure settings by editing the `smart_simulation.dat` file directly:
+
+**Location:** `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/smart_simulation.dat`
+
+**Priority Chain:**
+```
+1. Runtime cheat commands (ss.set_config)  ← Highest priority
+2. .dat file overrides (game start)
+3. Mod defaults (hardcoded)                ← Lowest priority
+```
+
+Edit the `.dat` file before starting the game to apply your preferred settings automatically on startup.
+
 ## Dependencies
 
 Smart Simulation requires **Core Library** by Lot 51 to function.
@@ -225,6 +240,67 @@ Smart Simulation is designed to work with the latest version of The Sims 4.
 **Tested Version:** `1.126.73.1030`
 
 If a game update changes behavior, a new release will be published as soon as possible.
+
+---
+
+## Troubleshooting
+
+### Mod Not Working
+
+If the mod doesn't seem to be working, check these common issues:
+
+**1. Script Mods Not Enabled**
+- Go to Game Options → Other → Enable Custom Content and Mods
+- Make sure both "Custom Content" and "Script Mods" are enabled
+- Restart The Sims 4 after enabling
+
+**2. Files Not in Correct Location**
+- Both files must be in: `Documents/Electronic Arts/The Sims 4/Mods/`
+- Files can only be ONE subfolder deep (e.g., `Mods/[INVINCIBLEBUG]/mod.ts4script`)
+- Do NOT place files two or more folders deep
+
+**3. Internet Connectivity**
+- **The mod works completely offline** - no internet required for normal gameplay
+- Internet is ONLY used for: checking for updates (optional)
+- If update check fails, the mod continues working normally
+- You can disable update checks in the config if desired
+
+**4. Windows Security / Antivirus**
+- Some antivirus software may block script mods
+- Add the Mods folder to your antivirus exceptions/exclusions list
+- Windows Defender: Settings → Update & Security → Windows Security → Virus & threat protection → Manage settings → Exclusions → Add an exclusion → Folder → Select Mods folder
+- Make sure the mod files are not quarantined or deleted
+
+**5. Outdated Mod Version**
+- Check if you have the latest version from [GitHub Releases](https://github.com/invinciblebug/SmartSimulation/releases)
+- Compare your version with the latest release version
+
+**6. Conflicts with Other Mods**
+- Try removing other script mods one by one to identify conflicts
+- Common conflicting mods: MCCC, Basemental, other performance mods
+- Test with only Smart Simulation installed first
+
+**7. Check Log Files**
+- Look for error messages in `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
+- The `ss-DD-MM-YYYY.log` file shows mod activity and errors
+- The `config-DD-MM-YYYY.log` file shows your current configuration
+
+### Sims Still Getting Stuck
+
+If Sims are still getting stuck after installing Smart Simulation:
+
+1. **Increase stall threshold**: `ss.set_config stall_count_threshold 300`
+2. **Increase progress timeout**: `ss.set_config progress_timeout_seconds 60`
+3. **Enable verbose logging**: `ss.set_config verbose true`
+4. **Check logs** for error messages
+
+### Loading Screens Still Slow
+
+If loading screens are still slow:
+
+1. **Verify loading speed is enabled**: `ss.set_config enable_loading_speed true`
+2. **Increase multiplier**: `ss.set_config loading_speed_multiplier 5`
+3. **Check timeout**: `ss.set_config loading_speed_timeout 180`
 
 ---
 
