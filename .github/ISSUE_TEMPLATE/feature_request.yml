@@ -8,9 +8,29 @@ body:
   - type: markdown
     attributes:
       value: |
+        # Feature Request
+
         Thanks for suggesting a new feature!
 
         For more information about Smart Simulation, visit: https://invinciblebug.github.io
+
+  - type: dropdown
+    id: feature-category
+    attributes:
+      label: Feature Category
+      description: What type of feature are you requesting?
+      options:
+        - Performance optimization
+        - Stall recovery improvement
+        - Loading screen enhancement
+        - Routing detection
+        - Error logging / diagnostics
+        - Configuration options
+        - Cheat commands
+        - Compatibility improvement
+        - Other
+    validations:
+      required: true
 
   - type: textarea
     id: feature-description
@@ -48,43 +68,27 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: game-config-files
+  - type: dropdown
+    id: priority
     attributes:
-      label: Game Configuration Files (Optional)
-      description: |
-        Please paste the contents of these Sims 4 game configuration files if relevant to the feature.
-
-        **Location:**
-        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\`
-        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/`
-        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/`
-
-        **Paste contents of any that exist:**
-        - `GameConfig.ini` (game configuration settings)
-        - `Options.ini` (game options)
-        - `OptionsClient.ini` (client options)
-      placeholder: Paste the contents of game config files here...
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve experience
+        - High - Important for my gameplay
+        - Critical - Essential for mod functionality
     validations:
       required: false
 
-  - type: textarea
-    id: logs
+  - type: dropdown
+    id: affected-version
     attributes:
-      label: Mod Log Files (Optional)
-      description: |
-        If the feature relates to a specific issue, please paste your mod log files from the date the issue occurred.
-
-        **Location:**
-        - Windows: `C:\Users\<Username>\Documents\Electronic Arts\The Sims 4\[INVINCIBLEBUG]\`
-        - macOS: `/Users/<Username>/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
-        - Linux: `~/.local/share/Steam/steamapps/compatdata/1222670/pfx/drive_c/users/steamuser/Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/`
-
-        **Paste contents of:**
-        - `ss-DD-MM-YYYY.log` (main log)
-        - `act-DD-MM-YYYY.log` (sim activity log)
-        - `config-DD-MM-YYYY.log` (config state log)
-      placeholder: Paste the contents of mod log files here...
+      label: Smart Simulation Version
+      description: Which version are you using?
+      options:
+        - 1.0.0
+        - Other (specify in additional context)
     validations:
       required: false
 
@@ -93,29 +97,14 @@ body:
     attributes:
       label: Other Mods Installed
       description: |
-        List any other mods you have installed, especially:
+        List any other mods you have installed that might be relevant:
         - Better Exceptions
-        - UI Cheats Extension
         - MCCC
         - Other performance mods
       placeholder: |
         Example:
         - Better Exceptions v2024.1.2
         - MCCC v1270
-        - UI Cheats Extension v1.1.6
-    validations:
-      required: false
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: How important is this feature to you?
-      options:
-        - Low
-        - Medium
-        - High
-        - Critical
     validations:
       required: false
 
@@ -127,3 +116,15 @@ body:
       placeholder: Add any additional information...
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        **Thank you for your suggestion!**
+
+        Your feedback helps improve Smart Simulation for everyone. I'll review your request and respond as soon as possible.
+
+        For discussions about features, you can also start a discussion at:
+        https://github.com/invinciblebug/SmartSimulation/discussions

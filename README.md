@@ -1,4 +1,21 @@
+<div align="center">
+
 # Smart Simulation
+
+**Intelligent Sims 4 mod for faster, smoother, and more stable gameplay**
+
+[![GitHub Issues](https://img.shields.io/github/issues/invinciblebug/SmartSimulation?style=flat-square&color=red)](https://github.com/invinciblebug/SmartSimulation/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/invinciblebug/SmartSimulation?style=flat-square&color=blue)](https://github.com/invinciblebug/SmartSimulation/pulls)
+[![GitHub License](https://img.shields.io/github/license/invinciblebug/SmartSimulation?style=flat-square&color=green)](https://github.com/invinciblebug/SmartSimulation/blob/main/LICENSE)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/invinciblebug/SmartSimulation?style=flat-square&color=orange)](https://github.com/invinciblebug/SmartSimulation/commits/main)
+[![GitHub Release](https://img.shields.io/github/v/release/invinciblebug/SmartSimulation?style=flat-square&color=purple)](https://github.com/invinciblebug/SmartSimulation/releases)
+[![Sims 4 Version](https://img.shields.io/badge/Sims%204-v1.126.73.1030-blue?style=flat-square)](https://www.ea.com/games/the-sims/the-sims-4)
+[![Core Library](https://img.shields.io/badge/Core%20Library-v1.43-orange?style=flat-square)](https://lot51.cc/mods/core-library)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](https://github.com/invinciblebug/SmartSimulation)
+
+</div>
+
+---
 
 **Smart Simulation** is an intelligent Sims 4 mod designed for faster, smoother, and more stable gameplay with safe simulation optimizations.
 
@@ -332,6 +349,26 @@ Yes, Smart Simulation is designed to work with all Sims 4 expansion packs, game 
 **Will this mod affect my save files?**
 
 No, Smart Simulation does not modify your save files. It only affects the simulation runtime and does not make permanent changes to your game data.
+
+**My game is still slow, what should I do?**
+
+If your game is still experiencing slowdowns after installing Smart Simulation, please report the issue by creating a bug report on GitHub:
+
+**https://github.com/invinciblebug/SmartSimulation/issues/new?template=bug_report.yml**
+
+When reporting, please include:
+- Your Smart Simulation version
+- Your Sims 4 version
+- Your operating system (Windows/macOS/Linux)
+- A description of the slowdown (when it happens, how often)
+- **ALL log files** from the `[INVINCIBLEBUG]` folder (`ss-*.log`, `act-*.log`, `config-*.log`)
+- List of other mods you have installed
+
+This helps me investigate the issue and provide a fix or workaround. Common causes of slowdowns include:
+- Too many mods installed (especially script mods)
+- Conflicts with other performance mods
+- Outdated game or mod versions
+- Large households with many Sims
 
 **Where is the source code?**
 

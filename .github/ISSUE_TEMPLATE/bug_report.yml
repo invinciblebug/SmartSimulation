@@ -8,9 +8,32 @@ body:
   - type: markdown
     attributes:
       value: |
+        # Bug Report
+
         Thanks for taking the time to fill out this bug report!
 
         For more information about Smart Simulation, visit: https://invinciblebug.github.io
+
+        > [!IMPORTANT]
+        > Please include ALL log files from the date the issue occurred. These logs help diagnose the problem quickly.
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Bug Type
+      description: What type of issue are you experiencing?
+      options:
+        - Game crash or freeze
+        - Sims standing still / not performing actions
+        - Timeline stuck / simulation frozen
+        - Loading screen stuck or very slow
+        - Routing failure / Sims stuck pathfinding
+        - Mod not loading / script error
+        - Compatibility issue with another mod
+        - Performance slowdown
+        - Other
+    validations:
+      required: true
 
   - type: textarea
     id: bug-description
@@ -36,10 +59,10 @@ body:
         - What did the error say?
         - Copy the full error from Better Exceptions window.
     validations:
-      required: true
+      required: false
 
   - type: textarea
-    id: steps-to-reroduce
+    id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce
       description: Steps to reproduce the behavior
@@ -172,8 +195,10 @@ body:
       label: Operating System
       description: What operating system are you using?
       options:
-        - Windows
-        - macOS
+        - Windows 10
+        - Windows 11
+        - macOS (Intel)
+        - macOS (Apple Silicon)
         - Linux (Steam/Proton)
         - Linux (Lutris/EA App)
         - Other
@@ -184,7 +209,7 @@ body:
     id: os-version
     attributes:
       label: Operating System Version
-      description: e.g., Windows 11, macOS Sonoma, Ubuntu 22.04
+      description: e.g., Windows 11 23H2, macOS Sonoma 14.5, Ubuntu 22.04
       placeholder: Enter your OS version
     validations:
       required: false
@@ -247,6 +272,20 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequency
+      description: How often does this issue occur?
+      options:
+        - Every time I play
+        - Most of the time
+        - Sometimes
+        - Rarely
+        - Only once
+    validations:
+      required: true
+
   - type: textarea
     id: additional-context
     attributes:
@@ -257,5 +296,19 @@ body:
         Does it happen consistently?
         What were you doing when it occurred?
         Did the issue start after installing/updating a mod?
+        How many mods do you have installed?
+        How many Sims are in your household?
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        **Thank you for reporting this issue!**
+
+        Your report helps improve Smart Simulation for everyone. I'll review your report and respond as soon as possible.
+
+        For faster support, you can also start a discussion at:
+        https://github.com/invinciblebug/SmartSimulation/discussions
