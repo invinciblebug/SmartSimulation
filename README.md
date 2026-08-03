@@ -188,6 +188,8 @@ You can also configure settings by editing the `smart_simulation.dat` file direc
 
 **Location:** `Documents/Electronic Arts/The Sims 4/[INVINCIBLEBUG]/smart_simulation.dat`
 
+The `.dat` file contains its own `config_version` key — when bumped, the mod overwrites with new defaults while preserving your overrides.
+
 **Priority Chain:**
 ```
 1. Runtime cheat commands (ss.set_config)  ← Highest priority
@@ -237,7 +239,7 @@ LICENSE
 README.md
 ```
 
-Log files use daily date-stamped filenames (DD-MM-YYYY format). Logs older than 30 days are automatically deleted. On-demand file I/O ensures no file handles are kept open.
+Log files use daily date-stamped filenames (DD-MM-YYYY format). Logs older than 30 days are automatically deleted. File handles are kept open for performance and closed on date rotation.
 
 > [!TIP]
 > On first load, the mod creates a `README.md` file in the `[INVINCIBLEBUG]` folder with complete documentation of all configuration options and cheat commands. Check it for detailed settings reference.
