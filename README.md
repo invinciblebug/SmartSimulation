@@ -559,76 +559,77 @@ No, currently this project is not open source. However, in the future I may cons
 
 ---
 
+## ❤️ Support My Work
+
+If you enjoy Smart Simulation or any of my other projects and would like to support their continued development, you can donate using any of the cryptocurrencies listed below.
+
+**Donations are completely optional but greatly appreciated.** Every contribution helps support development time, maintenance, bug fixes, compatibility updates, documentation, and future improvements, allowing me to continue providing free software, open-source projects, and mods for the community.
+
 <details>
-<summary><strong>Support My Work</strong></summary>
-
-If you'd like to support the development of my open-source projects and mods, you can donate using any of the following cryptocurrencies.
-
-**Donations are completely optional but greatly appreciated.** All of my projects are provided free of charge, and your support helps cover development time, maintenance, bug fixes, compatibility updates, documentation, and future improvements.
+<summary><strong>View supported cryptocurrencies</strong></summary>
 
 ### Bitcoin (BTC) – Taproot
 
-**Address:**
+**Address**
 ```
 bc1pww6tzrykn5swfqf3nd8aeyw3gcsr9lvw6ylw4jfj5k2h9chctsssuq2yw8
 ```
 
 ### Ethereum (ETH)
 
-**Address:**
+**Address**
 ```
 0xb2B549f6cBC6BaCc5A55FfB90Cb71Ce843A413EE
 ```
 
 ### BNB Smart Chain (BNB)
 
-**Address:**
+**Address**
 ```
 0xb2B549f6cBC6BaCc5A55FfB90Cb71Ce843A413EE
 ```
 
 ### USDT (BNB Smart Chain / BEP-20)
 
-**Address:**
+**Address**
 ```
 0xb2B549f6cBC6BaCc5A55FfB90Cb71Ce843A413EE
 ```
 
 ### Solana (SOL)
 
-**Address:**
+**Address**
 ```
 FKoAM9v4snn5QgW6cRhH89itGQiw2juPAYgs7ByJdP1
 ```
 
 ### USDC (Solana)
 
-**Address:**
+**Address**
 ```
 FKoAM9v4snn5QgW6cRhH89itGQiw2juPAYgs7ByJdP1
 ```
 
 ### TRON (TRX)
 
-**Address:**
+**Address**
 ```
 TSG8TNzPPQk5sVXvRgUV31NKhGZwggyQ6r
 ```
 
 ### Dogecoin (DOGE)
 
-**Address:**
+**Address**
 ```
 DBxmkbfwV7GYsGxY7rcWMkiXhQwqAZB3rn
 ```
 
----
-
-**Important:** Please ensure you send each cryptocurrency using the correct blockchain network. Transactions sent using an unsupported network may be unrecoverable.
-
-Thank you for your support! Every contribution helps me continue developing, maintaining, and improving free software, open-source projects, and mods for the community.
-
 </details>
+
+> [!IMPORTANT]
+> Please ensure you send each cryptocurrency using the correct blockchain network. Transactions sent using an unsupported or incorrect network may be unrecoverable.
+
+Thank you for your support! Every donation, no matter the size, helps me continue developing, maintaining, and improving Smart Simulation and my other projects for the community. ❤️
 
 ---
 
