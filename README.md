@@ -3,27 +3,27 @@
 <img alt="banner" src="https://github.com/user-attachments/assets/77502633-3f3a-4582-ae69-14fffcdae2e0" />
 
 # Smart Simulation
-
 **Intelligent Sims 4 mod for faster, smoother, and more stable gameplay**
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/invinciblebug/SmartSimulation)
 [![Website](https://img.shields.io/badge/Website-invinciblebug.github.io-blue?style=flat-square&logo=googlechrome)](https://invinciblebug.github.io)
+[![Wiki](https://img.shields.io/badge/Wiki-Documentation-0366D6?style=flat-square&logo=github)](https://github.com/invinciblebug/SmartSimulation/wiki)
 [![CurseForge](https://img.shields.io/badge/CurseForge-Download-F16436?style=flat-square&logo=curseforge&logoColor=white)](https://www.curseforge.com/sims4/mods/smart-simulation)
 [![GitHub Release](https://img.shields.io/github/v/release/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/releases)
 [![GitHub Release Date](https://img.shields.io/github/release-date/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/releases)
 [![GitHub Downloads](https://img.shields.io/github/downloads/invinciblebug/SmartSimulation/total?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/releases)
 [![GitHub Stars](https://img.shields.io/github/stars/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/network/members)
-[![GitHub Followers](https://img.shields.io/github/followers/invinciblebug?style=flat-square&label=Follow)](https://github.com/invinciblebug)
+[![Follow](https://img.shields.io/github/followers/invinciblebug?style=flat-square&label=Follow)](https://github.com/invinciblebug)
 [![GitHub Issues](https://img.shields.io/github/issues/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/pulls)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/commits/main)
 [![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/commits/main)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/blob/main/LICENSE)
-[![Sims 4 Version](https://img.shields.io/badge/The%20Sims%204-v1.126.73.1030-blue?style=flat-square)](https://www.ea.com/games/the-sims/the-sims-4)
+[![The Sims 4](https://img.shields.io/badge/The%20Sims%204-v1.126.73.1030-blue?style=flat-square)](https://www.ea.com/games/the-sims/the-sims-4)
 [![Core Library](https://img.shields.io/badge/Core%20Library-v1.43-orange?style=flat-square)](https://lot51.cc/mods/core-library)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](#installation)
-[![Donate](https://img.shields.io/badge/Donate-Cryptocurrency-yellow?style=flat-square)](#support-my-work)
+[![Support My Work](https://img.shields.io/badge/Support-My%20Work-yellow?style=flat-square&logo=githubsponsors)](https://github.com/invinciblebug/SmartSimulation/wiki/Support-My-Work)
 [![Views](https://hits.sh/github.com/invinciblebug/SmartSimulation.svg?label=Views)](https://hits.sh/github.com/invinciblebug/SmartSimulation/)
 
 </div>
@@ -561,75 +561,7 @@ No, currently this project is not open source. However, in the future I may cons
 
 ## ❤️ Support My Work
 
-If you enjoy Smart Simulation or any of my other projects and would like to support their continued development, you can donate using any of the cryptocurrencies listed below.
-
-**Donations are completely optional but greatly appreciated.** Every contribution helps support development time, maintenance, bug fixes, compatibility updates, documentation, and future improvements, allowing me to continue providing free software, open-source projects, and mods for the community.
-
-<details>
-<summary><strong>View supported cryptocurrencies</strong></summary>
-
-### Bitcoin (BTC) – Taproot
-
-**Address**
-```
-bc1pww6tzrykn5swfqf3nd8aeyw3gcsr9lvw6ylw4jfj5k2h9chctsssuq2yw8
-```
-
-### Ethereum (ETH)
-
-**Address**
-```
-0xb2B549f6cBC6BaCc5A55FfB90Cb71Ce843A413EE
-```
-
-### BNB Smart Chain (BNB)
-
-**Address**
-```
-0xb2B549f6cBC6BaCc5A55FfB90Cb71Ce843A413EE
-```
-
-### USDT (BNB Smart Chain / BEP-20)
-
-**Address**
-```
-0xb2B549f6cBC6BaCc5A55FfB90Cb71Ce843A413EE
-```
-
-### Solana (SOL)
-
-**Address**
-```
-FKoAM9v4snn5QgW6cRhH89itGQiw2juPAYgs7ByJdP1
-```
-
-### USDC (Solana)
-
-**Address**
-```
-FKoAM9v4snn5QgW6cRhH89itGQiw2juPAYgs7ByJdP1
-```
-
-### TRON (TRX)
-
-**Address**
-```
-TSG8TNzPPQk5sVXvRgUV31NKhGZwggyQ6r
-```
-
-### Dogecoin (DOGE)
-
-**Address**
-```
-DBxmkbfwV7GYsGxY7rcWMkiXhQwqAZB3rn
-```
-
-</details>
-
-> [!IMPORTANT]
-> Please ensure you send each cryptocurrency using the correct blockchain network. Transactions sent using an unsupported or incorrect network may be unrecoverable.
-
-Thank you for your support! Every donation, no matter the size, helps me continue developing, maintaining, and improving Smart Simulation and my other projects for the community. ❤️
+For support information, please visit the [Support My Work](https://github.com/invinciblebug/SmartSimulation/wiki/Support-My-Work) wiki page.
 
 ---
 
