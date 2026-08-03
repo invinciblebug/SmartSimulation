@@ -42,6 +42,7 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 > - **GitHub Releases**: https://github.com/invinciblebug/SmartSimulation/releases
 > - **CurseForge**: https://www.curseforge.com/sims4/mods/smart-simulation
 > - **Official Website**: https://invinciblebug.github.io
+> - **Wiki**: https://github.com/invinciblebug/SmartSimulation/wiki
 >
 > Avoid downloading from third-party sites unless you trust the source.
 
@@ -55,7 +56,7 @@ It helps improve simulation responsiveness, reduce stalls, and keep gameplay fee
 > If you love this mod and want to help keep it active, all you have to do is sign in to GitHub and star this repository project. It shows your appreciation and helps others discover the mod. Thank you for your support!
 >
 > **Support Development**
-> You can also support development by donating cryptocurrency. Every contribution helps maintain and improve the mod. See the [Support My Work](#support-my-work) section for details.
+> You can also support development by visiting [Support My Work](https://github.com/invinciblebug/SmartSimulation/wiki/Support-My-Work). Every contribution helps maintain and improve the mod.
 
 > [!NOTE]
 > **Report Issues**
@@ -540,7 +541,7 @@ Thank you for asking! You can support the development of Smart Simulation in the
 
 1. **Star the repository** - Sign in to GitHub and star this project. It helps others discover the mod.
 
-2. **Donate cryptocurrency** - Any amount is fine, no matter how small. Your support helps cover development time, maintenance, bug fixes, compatibility updates, and documentation. See the [Support My Work](#support-my-work) section for wallet addresses.
+2. **Support development** - Visit [Support My Work](https://github.com/invinciblebug/SmartSimulation/wiki/Support-My-Work) for ways to contribute.
 
 3. **Share the mod** - Tell your friends or share it on social media.
 
@@ -559,7 +560,7 @@ No, currently this project is not open source. However, in the future I may cons
 
 ---
 
-## ❤️ Support My Work
+## Support My Work
 
 For support information, please visit the [Support My Work](https://github.com/invinciblebug/SmartSimulation/wiki/Support-My-Work) wiki page.
 
