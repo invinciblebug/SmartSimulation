@@ -1,21 +1,30 @@
 <div align="center">
-  
-<img  alt="banner" src="https://github.com/user-attachments/assets/77502633-3f3a-4582-ae69-14fffcdae2e0" />
+
+<img alt="banner" src="https://github.com/user-attachments/assets/77502633-3f3a-4582-ae69-14fffcdae2e0" />
 
 # Smart Simulation
 
 **Intelligent Sims 4 mod for faster, smoother, and more stable gameplay**
 
-[![GitHub Issues](https://img.shields.io/github/issues/invinciblebug/SmartSimulation?style=flat-square&color=red)](https://github.com/invinciblebug/SmartSimulation/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/invinciblebug/SmartSimulation?style=flat-square&color=blue)](https://github.com/invinciblebug/SmartSimulation/pulls)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/invinciblebug/SmartSimulation)
+[![Website](https://img.shields.io/badge/Website-invinciblebug.github.io-blue?style=flat-square&logo=googlechrome)](https://invinciblebug.github.io)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-F16436?style=flat-square&logo=curseforge&logoColor=white)](https://www.curseforge.com/sims4/mods/smart-simulation)
+[![GitHub Release](https://img.shields.io/github/v/release/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/invinciblebug/SmartSimulation/total?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/network/members)
+[![GitHub Followers](https://img.shields.io/github/followers/invinciblebug?style=flat-square&label=Follow)](https://github.com/invinciblebug)
+[![GitHub Issues](https://img.shields.io/github/issues/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/pulls)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/commits/main)
+[![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/invinciblebug/SmartSimulation?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/commits/main)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](https://github.com/invinciblebug/SmartSimulation/blob/main/LICENSE)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/invinciblebug/SmartSimulation?style=flat-square&color=orange)](https://github.com/invinciblebug/SmartSimulation/commits/main)
-[![GitHub Release](https://img.shields.io/github/v/release/invinciblebug/SmartSimulation?style=flat-square&color=purple)](https://github.com/invinciblebug/SmartSimulation/releases)
-[![Sims 4 Version](https://img.shields.io/badge/Sims%204-v1.126.73.1030-blue?style=flat-square)](https://www.ea.com/games/the-sims/the-sims-4)
+[![Sims 4 Version](https://img.shields.io/badge/The%20Sims%204-v1.126.73.1030-blue?style=flat-square)](https://www.ea.com/games/the-sims/the-sims-4)
 [![Core Library](https://img.shields.io/badge/Core%20Library-v1.43-orange?style=flat-square)](https://lot51.cc/mods/core-library)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](#installation)
 [![Donate](https://img.shields.io/badge/Donate-Cryptocurrency-yellow?style=flat-square)](#support-my-work)
-[![Hits](https://hits.sh/github.com/invinciblebug/SmartSimulation.svg?label=Views)](https://hits.sh/github.com/invinciblebug/SmartSimulation/)
+[![Views](https://hits.sh/github.com/invinciblebug/SmartSimulation.svg?label=Views)](https://hits.sh/github.com/invinciblebug/SmartSimulation/)
 
 </div>
 
@@ -337,9 +346,18 @@ If you run into a problem, please:
 
 ## Releases
 
-Download the latest version here:
+### Downloads
 
-**https://github.com/invinciblebug/SmartSimulation/releases**
+You can download the latest version of **Smart Simulation** from any of the official sources below:
+
+- **GitHub Releases** (latest releases and release notes)  
+  https://github.com/invinciblebug/SmartSimulation/releases
+
+- **CurseForge** (recommended for most players)  
+  https://www.curseforge.com/sims4/mods/smart-simulation
+
+> [!NOTE]
+>  Always download Smart Simulation from the official GitHub repository or the official CurseForge page to ensure you receive authentic and up-to-date releases.
 
 ---
 
